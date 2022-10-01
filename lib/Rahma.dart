@@ -6,6 +6,7 @@ class Rahma extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Hi"),
+        leading: Icon(Icons.abc),
       ),
     );
   }
